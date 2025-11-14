@@ -22,3 +22,4 @@ Once clicking the menu item, a popup will appear explaining what will happen, as
 ![Document after adding note pages](https://github.com/Slalamander/xournalpp_sidenotes/blob/main/.github/NotePages.png)
 
 The plugin takes care of only adding pages to pages belonging to the original pdf by checking the background property. This means that running the pluging multiple times does not lead to additional pages being added.
+I could not figure out how to add an input box to the initial message box, and I am not sure if it is even possible at all. Hence, configuring the width of notes requires changing the value in the `main.lua` file. Change the value of the `note_width` variable at the top of the file for this. The unit is in points, with the current value corresponding to a width of 10 cm.
