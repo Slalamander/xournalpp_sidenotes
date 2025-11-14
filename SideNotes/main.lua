@@ -1,4 +1,5 @@
 -- Plugin to make it easier to add note pages to the side of a pdf, made to accomodate my preferred note taking
+-- Add option+shortcut for adding a single note page next to the current page
 -- For exporting the notes, it may be useful to write a function that combines the pages and notes
 
 note_width = 283.46 --pagewidth is in points (this is a width of 10cm)
@@ -70,3 +71,4 @@ function addNotePages()
 
   print(string.format("Succesfully added %i note pages", notecount))
 end
+
